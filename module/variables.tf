@@ -3,10 +3,6 @@ variable "env_name" {
   default = null
 }
 
-variable "network_id" {
-  type = string
-}
-
 variable "subnet_zones" {
   type = list(string)
 }
